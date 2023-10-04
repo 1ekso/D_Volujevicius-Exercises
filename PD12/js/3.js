@@ -1,10 +1,17 @@
-let sIlgis = 400;   //cm
-let sAukstis = 300; //cm
-let pIlgis = 20;    //cm
-let pAukstis = 10;  //cm
-let kaina = 0.5;    //eur
+let sIlgis = 4 * 100;   
+let sAukstis = 3 * 100; 
+let pIlgis = 20;    
+let pAukstis = 10;   
+let plytu = 0;
 
-let pKiekis = (sAukstis / pAukstis ) * (sIlgis / pIlgis);
-let pKaina = pKiekis * kaina;
+for (let a = 0; a < sIlgis; a += pIlgis) {
+  for (let b = 0; b < sAukstis; b += pAukstis) {
+    plytu++;
+  }
+}
 
-console.log(`plytu kiekis: ${pKiekis}, plytu kaina: ${pKaina}eur`);
+let kaina = plytu * 0.5;
+
+console.log(`plytu kiekis: ${plytu}, plytu kaina: ${kaina}eur`);
+
+

@@ -1,7 +1,13 @@
+const metraiPerS = 1000 / 3600;
 let tunnel = 264;   //metrai
 let autoGreit = 60; //km/h
+let mps = 0;
 
-autoGreit /= 3.6;
-tunnel /= autoGreit;
+while (autoGreit > 0) {
+    mps += metraiPerS;
+    autoGreit--;
+}
 
-console.log(`nuvaziuos per ${Math.round(tunnel * 100) / 100} sekundziu`);
+let ans = tunnel / mps;
+
+console.log(Math.round(ans * 100) / 100);

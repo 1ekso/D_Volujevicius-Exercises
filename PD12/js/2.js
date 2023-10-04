@@ -1,8 +1,11 @@
-let puodukai = 7;
-const puodukuMax = 3;
+let puodeliai = 7;
+let karobackos = 0;
 
-let supakuoti = Math.floor(puodukai / puodukuMax);
-let likePuodukai = puodukai % puodukuMax;
+for (let i = 0; i < 7; i++) {
+    if (puodeliai >= 3) {
+        karobackos += 1;
+        puodeliai -= 3;
+    }
+}
 
-console.log(`supakuotos ${supakuoti} dezes`);
-console.log(`liko ${likePuodukai} puodas/puodeliai`);
+console.log(`dezes: ${karobackos} likutis puodeliu: ${puodeliai}`);
