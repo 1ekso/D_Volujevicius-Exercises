@@ -1,7 +1,7 @@
-let dienos = 3;
 let zuvytes = 5;
-let pridejo = 3;
 
-zuvytes += dienos * pridejo;
+for (let i = 1; i <= 3; i++) {
+  zuvytes += 3; 
+}
 
-console.log(`po ${dienos} dienu gyvens ${zuvytes} zuvu`);
+console.log(`po 3 dienu gyvens ${zuvytes} zuvu`);
