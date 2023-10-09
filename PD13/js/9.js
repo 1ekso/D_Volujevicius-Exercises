@@ -1,8 +1,8 @@
-const atvirukasIlg = 8;
-const atvirukasAuk = 5;
+const atvirukasIlg = 120;
+const atvirukasAuk = 120;
 
-const vokasIlg = 8;
-const vokasAuk = 5;
+const vokasIlg = 120;
+const vokasAuk = 120;
 
 if (atvirukasIlg < vokasIlg && atvirukasAuk < vokasAuk) {
     console.log("tilps");
