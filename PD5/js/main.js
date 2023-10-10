@@ -45,3 +45,5 @@ console.log(typeof isEqual);
 console.log(typeof petName);
 console.log(typeof petAge);
 console.log(typeof human);
+console.log(typeof humanName);
+console.log(typeof humanAge);
