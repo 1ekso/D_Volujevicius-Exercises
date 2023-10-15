@@ -21,7 +21,7 @@ let avgS1 = S1 / Sausis.length;
 let avgV1 = V1 / Sausis.length;
 let avgK1 = K1 / Sausis.length;
 
-let bendras = (S1+V1+K1)/ (Sausis.length + Vasaris.length + Kovas.length);
+let bendras = (S1+V1+K1) / (Sausis.length + Vasaris.length + Kovas.length);
 
 
 console.log(`vidutinio Sausio temp: ${avgS1.toFixed(2)}`);
