@@ -2,13 +2,17 @@
 //     paisykite didžiųjų ir mažųjų raidžių).
 
 let arr = [1, 1, 1, 5, 6, 6, 8, 7, 4];
-let norim = 1;
-let turim = 0;
+
 
 for (let i = 0; i < arr.length; i++){
-    if (arr[i] === norim){
-        turim++;
+    for(let y = i + 1; y < arr.length; y++){
+        if(arr[i]===arr[y]){
+            arr.splice(y, 1);
+            y--;
+            
+        // console.log(arr);
+        }
     }
 }
 
-console.log(turim);
+console.log(arr);
