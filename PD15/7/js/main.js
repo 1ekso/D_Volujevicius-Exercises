@@ -5,8 +5,6 @@ let arr = 'NepaKEnktu';
 let nu = '';
 
 for(let i = 0; i < arr.length; i++) {
-    // let y = arr[i];
-
     if(arr[i] === arr[i].toUpperCase()){
         nu += arr[i].toLowerCase();
     } else if (arr[i] === arr[i].toLowerCase()){

@@ -7,3 +7,4 @@ for (let i = 1; i < arr.length; i++){
 
 
 console.log(robka);
+console.log(arr.toString());
