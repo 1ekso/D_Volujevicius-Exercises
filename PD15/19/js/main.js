@@ -1,4 +1,4 @@
-// let arr = [1, 2, 0.3, 4, 4, 5 ,5];
-// let min3 = Math.min(...arr);
+let arr = [1, 2, 0.3, 4, 4, 5 ,5];
+arr.sort
 
-// console.log(min3);
+console.log(arr[2]);

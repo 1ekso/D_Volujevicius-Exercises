@@ -1,4 +1,12 @@
-// //Parašykite JavaScript programą, kuri sukuria masyvą tarp dviejų sveikųjų skaičių su žingsniu +1.
-// let arr = [1, 2, 3, 4, 5];
-// delete arr[3];
-// console.log(arr);
+//Parašykite JavaScript programą, kuri sukuria masyvą tarp dviejų sveikųjų skaičių su žingsniu +1.
+let pirmas = 1;
+let paskutinis = 4; 
+
+let arr = [];
+
+for (let i = pirmas; i <= paskutinis; i++){
+    arr.push(i);
+}
+
+console.log(arr);
+
