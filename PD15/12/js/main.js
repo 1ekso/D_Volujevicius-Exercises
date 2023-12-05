@@ -1,6 +1,8 @@
-let arr = [1,2,3,4,5];
-let piratas = [6,7,8,9,10];
+let arr = [2, 3, 5];
+let piratas = [4, 3, 2];
 
-let arrPiratas = arr.concat(piratas);
+// let arrPiratas = arr.concat(piratas);
 
-console.log(arrPiratas);
+// console.log(arrPiratas);
+
+// sudaugint

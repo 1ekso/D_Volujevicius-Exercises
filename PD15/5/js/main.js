@@ -1,4 +1,9 @@
-let arr = ['piratas', 'arobka', 'robka'];
-arr.sort();
+// let arr = ['piratas', 'arobka', 'robka'];
 
-console.log(arr)
+
+// console.log(arr)
+
+
+
+
+//surusiuot

@@ -4,3 +4,7 @@
 //         if(!arr1.includes(arr[i])) arr1.push(arr[i]);
 //     }
 // console.log(arr1);
+
+
+
+// padaryt veliau :p
