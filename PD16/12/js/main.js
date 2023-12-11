@@ -1,4 +1,4 @@
-const checkIfPrime = num => {
+function checkIfPrime(num){
     for(let i = 2, s = Math.sqrt(num); i <= s; i++) {
         if(num % i === 0) return false;
     }
