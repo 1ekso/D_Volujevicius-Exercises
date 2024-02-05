@@ -1,9 +1,10 @@
-let button = document.createElement("button");
-button.innerText = "Spausk Mane!";
+function colorParagraphs(color) {
+    const paragraphs = document.querySelectorAll('p');
 
-button.addEventListener("click", function () {
-    document.body.style.color = "red";
+    paragraphs.forEach(function (paragraph) {
+        paragraph.style.color = color;
+    })
+
 }
-);
 
-document.getElementById("button").appendChild(button);
+colorParagraphs('red');
