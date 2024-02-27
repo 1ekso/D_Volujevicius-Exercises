@@ -5,20 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+    <div class="container">
+        <h1>Registration</h1>
+        <form>
+            <div class="form-container">
+                <div class="left">    
+                    <ul>
+                        <li>           
+                            <p>Full Name</p><input type="text" placeholder="Enter your name" name="name">
+                        </li>
+                        <li>
+                            <p>Email</p><input type="text" placeholder="Enter your email" name="email">
+                        </li>
+                        <li>
+                            <p>Password</p><input type="text" placeholder="Enter your password" name="password">
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="right">    
+                    <ul>
+                        <li>           
+                            <p>Username</p><input type="text" placeholder="Enter your username" name="username">
+                        </li>
+                        <li>
+                            <p>Phone Number</p><input type="text" placeholder="Enter your number" name="phone">
+                        </li>
+                        <li>
+                            <p>Confirm Password</p><input type="text" placeholder="Confirm your password" name="passwordConfirmed">
+                        </li>
+                    </ul>
+                </div>
 
-    <ul id="list">
-        <li>bananas</li>
-        <li>kivis</li>
-        <li>obuoliaviciute</li>
-        <li>kriausius</li>
-        <li>mandarinas</li>
-    </ul>
+            </div>
 
-    <button onclick="sortAsc()">sort ABC</button>
-    <button onclick="sortDesc()">reverse ABC sort</button>
+            <div class="button-form-container">    
+                <h2>Gender</h2>
+
+                <button class="button" id="register">Register</button>
+            </div>
+        </form>
+    </div>
 
     <script src="js/main.js"></script>
 </body>
