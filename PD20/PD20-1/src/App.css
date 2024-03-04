@@ -1,0 +1,29 @@
+
+
+.viskaTurim h1, p{
+    padding: 0.1rem 1rem 0.1rem 1rem;
+}
+
+.viskaTurim h2 {
+    background-color: blueviolet;
+    color: white;
+    display: inline-block;
+    border-radius: 5%;
+    margin: 0.5rem;
+}
+
+.viskaTurim .CardContainer{
+    border: 3px solid black;
+    width: 17rem;
+    position: relative;
+}
+
+.viskaTurim img {
+    width: 17rem;
+}
+
+
+
+.regular {
+    filter: grayscale(100%);
+}
