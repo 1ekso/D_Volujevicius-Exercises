@@ -1,16 +1,7 @@
-import AddTask from "./components/AddTask";
-import Task from "./components/Task"
+import ToDo from "./components/ToDo.jsx";
 
 function App() {
-
-  return (
-    <>
-      <div>
-        <AddTask />
-        <Task />
-      </div>
-    </>
-  );
+  return <ToDo />;
 }
- 
+
 export default App;
